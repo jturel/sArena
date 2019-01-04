@@ -2,4 +2,5 @@ language: c
 
 script:
   - sudo apt-get install luarocks
-  - luarocks -t sArena.lua
+  - sudo luarocks install luacheck
+  - luacheck -t sArena.lua
