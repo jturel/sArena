@@ -1,4 +1,5 @@
 language: c
 
 script:
-  - echo "Hello!"
+  - sudo apt-get install luarocks
+  - luarocks -t sArena.lua
